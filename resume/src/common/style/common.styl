@@ -1,0 +1,55 @@
+bg-img(url)
+  background-image: url(url)
+  background-position: center
+  background-size: cover
+  background-repeat: no-repeat
+
+fix-position(top, right, bottom, left)
+  top: top
+  position: fixed
+  right: right
+  bottom: bottom
+  left: left
+
+hover-animate()
+  transform: scale(1.02) translate3d(0, 0, 0)
+  transition: 0.3s
+
+*
+  user-select: none
+  box-sizing: border-box
+
+html
+  font-family: arial, "Hiragino Sans GB", "Microsoft Yahei", sans-serif
+  font-size: 62.5%
+
+.en
+  font-weight: 100
+
+.zh
+  font-weight:normal
+
+.out-container
+  margin: auto
+  padding: 0
+  overflow: hidden
+
+@media (max-width: 767px)
+  .out-container
+    width: 90%
+    min-width: 90%
+    padding: 0
+    .info-item
+      .text
+        letter-spacing: 1px
+
+.card-container
+  margin: 2rem 1rem
+  background-color: rgba(0, 0, 0, 0.2)
+  // padding: 0.1rem 0.5rem
+  box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.3)
+  &:hover
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5)
+  .card-header
+    width: 100%
+
