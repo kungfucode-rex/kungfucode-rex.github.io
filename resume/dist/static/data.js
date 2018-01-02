@@ -513,7 +513,7 @@
       ]
     },
     "experienceInfo": {
-      "title": "Experience",
+      "title": "工作经验",
       "items": [
         {
           "company": "启明星辰",
