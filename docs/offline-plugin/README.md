@@ -292,22 +292,22 @@ Reflects ServiceWorker.register's scope option.默认值为:`null`
 2. 对于`cache-first`，导航预加载必须手动启用而且要在服务端处理。启用导航预加载必须指定下面两个方法：
 ```js
 ServiceWorker: {
-  navigationPreload: {
-    map: (url) => {
-      if (url.pathname === '/') {
-        return '/api/feed';
+      navigationPreload: {
+        map: (url) => {
+          if (url.pathname === '/') {
+            return '/api/feed';
+          }
+          var post = url.pathname.match(/^\/post\/(\d+)$/);
+          if (post) {
+            return '/api/post/' + post[1];
+          }
+        },
+        test: (url) => {
+          if (url.pathname.indexOf('/api/') === 0) {
+            return true;
+          }
+        }
       }
-      var post = url.pathname.match(/^\/post\/(\d+)$/);
-      if (post) {
-        return '/api/post/' + post[1];
-      }
-    },
-    test: (url) => {
-      if (url.pathname.indexOf('/api/') === 0) {
-        return true;
-      }
-    }
-  }
 }
 ```
   + `map` 映射导航预加载请求到别的请求
@@ -396,9 +396,9 @@ function serveIndex (req, res) {
 > 示例：
 ```js
 new webpack.optimize.UglifyPlugin({
-  compress: {
-    drop_console: true
-  }
+     compress: {
+       drop_console: true
+     }
 })
 ```
 4. 为什么使用`{mode: 'no-cors'}`时会返回一个错误？<br/>
@@ -409,7 +409,7 @@ This is because the opaque request made doesn't give us access to the returned r
 > 示例：
 ```js
 onUpdateReady: function () {
-  OfflinePlugin.applyUpdate()
+     OfflinePlugin.applyUpdate()
 }
 ```
 
