@@ -1,0 +1,100 @@
+html {
+    height: 100%;
+    font-family: '微软雅黑';
+}
+* {
+    color: #222
+}
+body {
+    margin: auto;
+    max-width: 800px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+a {
+    text-decoration: none
+}
+body, .card::before {
+    background: url(../imgs/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.card{
+    width: 80%;
+    padding: 10px 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    margin: 10px;
+    background-color: rgba(255,255,255,0.5);
+}
+.card:hover {
+    background-color: rgba(255,255,255,0.7);
+    box-shadow: 1px 10px 15px 0px rgba(0, 0, 0, 0.7);
+    transform: none
+}
+.card::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    filter: blur(5px);
+    margin: -30px;
+    z-index: -1;
+}
+.card:hover h2 {
+    color: #4fc08d;
+}
+.title {
+    background-image: repeating-linear-gradient(-3deg, #000, #000 40.0%,#666 50.0%,#000 60.0%,#000 100.0%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.center {
+    text-align: center;
+}
+
+.items{
+    display: flex;
+    padding: 10px;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item:hover {
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+.item:hover .item-title {
+    font-weight: bold;
+}
+.item-title {
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+    background-color: rgba(255,255,255,0.3);;
+}
+.item-body {
+    font-size: 14px;
+    padding: 10px;
+}
