@@ -17,7 +17,7 @@ window.onload = function () {
       $itemBody.innerHTML = item.desc
       $item.appendChild($itemTitle)
       $item.appendChild($itemBody)
-      if ($item.link) {
+      if (item.link) {
         $item.onclick = function () {
           let $a = document.createElement('a')
           $a.href = item.link
