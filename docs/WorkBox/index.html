@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+    <title>WorkBox 中文文档</title>
+    <link rel="stylesheet" href="docute.css">
+    <style>
+        .markdown-body code {
+            vertical-align: text-top;
+        }
+        span.prop-50{
+            width: 50px;
+            display: inline-block;
+        }
+        span.prop-80{
+            width: 80px;
+            display: inline-block;
+        }
+        span.prop-100{
+            width: 100px;
+            display: inline-block;
+        }
+        span.prop-150{
+            width: 150px;
+            display: inline-block;
+        }
+        span.prop-180{
+            width: 180px;
+            display: inline-block;
+        }
+        .my-active{
+            color: #42b98d!important;
+        }
+        .markdown-body{
+            color: #34495e!important;
+        }
+        code {
+            color: #e96900!important;
+        }
+    </style>
+</head>
+<body>
+<div id="app"></div>
+<script src="docute.js"></script>
+<script src="config.js"></script>
+<script>
+  setTimeout(function () {
+    // 记录滚动条位置
+    var content = document.querySelector('.content-wrap')
+    var contentScrollTop = localStorage.getItem('contentScrollTop')
+    if (contentScrollTop) {
+      content.scrollTo({top: contentScrollTop})
+    }
+    content.onscroll = function () {
+      localStorage.setItem('contentScrollTop', content.scrollTop)
+    }
+    // 左侧菜单高亮
+    var menuLinks = document.querySelectorAll('.sidebar ul a')
+    menuLinks.forEach(function (menu) {
+      menu.onclick = function () {
+        // 移除所有的高亮
+        menuLinks.forEach(function (m) {
+          m.classList.remove('my-active')
+        })
+        // 给正在单击的添加高亮
+        menu.classList.add('my-active')
+      }
+    })
+  }, 500)
+</script>
+</body>
+</html>
