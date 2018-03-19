@@ -54,9 +54,9 @@
       "title": "Willing Job Title",
       "workAge": "4 years",
       "willings": [
-        "Software Java Engineer",
+        "Front End Engineer",
         "Full Stack developer",
-        "Front End Engineer"
+        "Software Java Engineer"
       ]
     },
     "educationInfo": {
@@ -119,6 +119,31 @@
               "icon": "ReactJS.png",
               "name": "ReactJS",
               "level": 20
+            },
+            {
+              "icon": "Webpack.png",
+              "name": "Webpack",
+              "level": 70
+            },
+            {
+              "icon": "iview.png",
+              "name": "iview",
+              "level": 80
+            },
+            {
+              "icon": "ServiceWorker.png",
+              "name": "ServiceWorker",
+              "level": 60
+            },
+            {
+              "icon": "WebAssembly.png",
+              "name": "WebAssembly",
+              "level": 50
+            },
+            {
+              "icon": "NodeJS.png",
+              "name": "NodeJS",
+              "level": 60
             }
           ]
         },
@@ -218,8 +243,35 @@
       "title": "Experience",
       "items": [
         {
+          "company": "XiaoErZuChe",
+          "duration": "2017/06 - now",
+          "jobTitle": "Front End Engineer",
+          "companyIcon": "xiaoerzuche.png",
+          "companySizeLabel": "Scale :",
+          "companySize": "200 +",
+          "achievementLabel": "Achievements:",
+          "achievements": [
+            {
+              "title": "设计并开发了一套全新的前端框架 Kungfu-Admin",
+              "status": "hide",
+              "description": "已在产品线上线使用,该框架灵感于 venus.js, 基于 Vue 2.x 整合了 iview、vue-router、vuex、axios 等各种前端技术，核心开发 1 个月，版本一直更新迭代到目前的 v2.3。其主要优势有：<br/><span class=\"indent-block\"></span>（1）可离线访问<br/><span class=\"indent-block\"></span>（2）组件封装，使用简洁，高效，风格统一<br/><span class=\"indent-block\"></span>（3）路由全自动生成<br/><span class=\"indent-block\"></span>（4）配置灵活高效<br/><span class=\"indent-block\"></span>（5）友好API，文档规范"
+            }
+          ],
+          "projectLabel": "Projects:",
+          "dutyLabel": "Duty:",
+          "projects": [
+            {
+              "title": "小二租车后台管理系统",
+              "status": "hide",
+              "scale": "6人年+",
+              "description": "技术:<br/><span class=\"indent-block\"></span>HTML,JavaScript,Css,Vue,iview,webpack,git,NodeJS<br/>简介: <br/><span class=\"indent-block\"></span>小二租车后台管理系统",
+              "duty": "框架设计、开发与维护，部分业务功能开发"
+            }
+          ]
+        },
+        {
           "company": "Venus",
-          "duration": "2015/06 - now",
+          "duration": "2015/06 - 2017/05",
           "jobTitle": "Software Java Engineer",
           "companyIcon": "venus-company.png",
           "companySizeLabel": "Scale :",
@@ -352,9 +404,9 @@
     "willingInfo": {
       "title": "求职意向",
       "willings": [
-        "Java 工程师",
+        "前端工程师",
         "全栈工程师",
-        "前端工程师"
+        "Java 工程师"
       ]
     },
     "educationInfo": {
@@ -417,6 +469,31 @@
               "icon": "ReactJS.png",
               "name": "ReactJS",
               "level": 20
+            },
+            {
+              "icon": "Webpack.png",
+              "name": "Webpack",
+              "level": 70
+            },
+            {
+              "icon": "iview.png",
+              "name": "iview",
+              "level": 80
+            },
+            {
+              "icon": "ServiceWorker.png",
+              "name": "ServiceWorker",
+              "level": 60
+            },
+            {
+              "icon": "WebAssembly.png",
+              "name": "WebAssembly",
+              "level": 50
+            },
+            {
+              "icon": "NodeJS.png",
+              "name": "NodeJS",
+              "level": 60
             }
           ]
         },
@@ -516,8 +593,35 @@
       "title": "Experience",
       "items": [
         {
+          "company": "小儿租车",
+          "duration": "2017/06 - 至今",
+          "jobTitle": "前端工程师",
+          "companyIcon": "xiaoerzuche.png",
+          "companySizeLabel": "规模 :",
+          "companySize": "200 +",
+          "achievementLabel": "成就:",
+          "achievements": [
+            {
+              "title": "设计并开发了一套全新的前端框架 Kungfu-Admin",
+              "status": "hide",
+              "description": "已在产品线上线使用,该框架灵感于 venus.js, 基于 Vue 2.x 整合了 iview、vue-router、vuex、axios 等各种前端技术，核心开发 1 个月，版本一直更新迭代到目前的 v2.3。其主要优势有：<br/><span class=\"indent-block\"></span>（1）可离线访问<br/><span class=\"indent-block\"></span>（2）组件封装，使用简洁，高效，风格统一<br/><span class=\"indent-block\"></span>（3）路由全自动生成<br/><span class=\"indent-block\"></span>（4）配置灵活高效<br/><span class=\"indent-block\"></span>（5）友好API，文档规范"
+            }
+          ],
+          "projectLabel": "项目:",
+          "dutyLabel": "职责:",
+          "projects": [
+            {
+              "title": "小二租车后台管理系统",
+              "status": "hide",
+              "scale": "6人年+",
+              "description": "技术:<br/><span class=\"indent-block\"></span>HTML,JavaScript,Css,Vue,iview,webpack,git,NodeJS<br/>简介: <br/><span class=\"indent-block\"></span>小二租车后台管理系统",
+              "duty": "框架设计、开发与维护，部分业务功能开发"
+            }
+          ]
+        },
+        {
           "company": "启明星辰",
-          "duration": "2015/06 - now",
+          "duration": "2015/06 - 2017/05",
           "jobTitle": "软件研发工程师",
           "companyIcon": "venus-company.png",
           "companySizeLabel": "规模 :",

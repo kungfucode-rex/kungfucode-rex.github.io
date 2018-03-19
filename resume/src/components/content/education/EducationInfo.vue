@@ -20,7 +20,7 @@
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
   #educationInfo
-    width: 25rem
+    width: 30rem
     .info-item
       margin-top: 0
     .info-item-wrapper:nth-child(even)

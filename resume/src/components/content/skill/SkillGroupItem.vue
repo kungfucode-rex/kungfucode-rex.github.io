@@ -54,7 +54,7 @@
           margin-right: 0.5rem
         .item-name
           color: #ddd
-          font-size: 1.6rem
+          font-size: 1.3rem
         .item-level
           position: absolute
           top: 0

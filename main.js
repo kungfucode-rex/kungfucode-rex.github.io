@@ -1,8 +1,6 @@
 window.onload = function () {
   let translateItemsArr = [
-    {title: 'offline-plugin', desc: 'Webpack的PWA插件', link: 'docs/offline-plugin/index.html'},
-    {title: 'WorkBox', desc: 'WorkBox 中文文档', link: 'docs/WorkBox/index.html'},
-    {title: 'ReactiveX-rxjs', desc: 'ReactiveX/rxjs 中文文档', link: 'docs/ReactiveX-rxjs/index.html'}
+    {title: 'offline-plugin', desc: 'Webpack的PWA插件', link: 'docs/offline-plugin/index.html'}
   ]
   let projectItemsArr = [
     {title: '安全管理平台', desc: '传统Java Web开发', link: ''}

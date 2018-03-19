@@ -49,7 +49,7 @@
       display: flex
       align-items: center
       padding: 1rem
-      font-size: 1.7rem
+      font-size: 1.5rem
       color: rgba(255, 255, 255, 0.8)
       margin-top: 1px
       background-color: rgba(0, 0, 0, 0.2)

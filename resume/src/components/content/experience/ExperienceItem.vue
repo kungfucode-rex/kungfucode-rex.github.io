@@ -164,7 +164,7 @@
         background-color: rgba(0, 0, 0, 0.3)
       .achievements-container
         flex-grow: 1
-        line-height: 2rem
+        line-height: 2.5rem
         overflow: hidden
         border-left: 1px solid rgba(255, 255, 255, 0.1)
         .achievement-container
@@ -206,7 +206,7 @@
         background-color: rgba(0, 0, 0, 0.3)
       .projects-container
         flex-grow: 1
-        line-height: 2rem
+        line-height: 2.5rem
         overflow: hidden
         border-left: 1px solid rgba(255, 255, 255, 0.1)
         .project-container

@@ -24,7 +24,7 @@
   @import "../../../common/style/index.styl"
 
   #baseInfo
-    width: 25rem
+    width: 30rem
     display: flex
     flex-wrap: wrap
 </style>

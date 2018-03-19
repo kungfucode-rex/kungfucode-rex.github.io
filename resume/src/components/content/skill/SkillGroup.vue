@@ -51,7 +51,7 @@
       margin-top: 1px
       flex-shrink: 0
       color: #ddd
-      font-size: 1.5rem
+      font-size: 1.3rem
       background-color: rgba(0, 0, 0, 0.3)
     .items-container
       flex-grow: 1

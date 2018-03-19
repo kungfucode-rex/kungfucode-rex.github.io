@@ -22,7 +22,7 @@
 </script>
 <style lang="stylus" rel="stylesheet/stylus">
   #willingInfo
-    width: 25rem
+    width: 30rem
 </style>
 <style lang="stylus" rel="stylesheet/stylus">
   @media (max-width: 767px)
