@@ -1,6 +1,7 @@
 window.onload = function () {
   let translateItemsArr = [
-    {title: 'offline-plugin', desc: 'Webpack的PWA插件', link: 'docs/offline-plugin/index.html'}
+    {title: 'offline-plugin', desc: 'Webpack的PWA插件', link: 'docs/offline-plugin/index.html'},
+    {title: 'WebAssembly', desc: 'MDN文档的翻译', link: 'https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiate'}
   ]
   let projectItemsArr = [
     {title: '安全管理平台', desc: '传统Java Web开发', link: ''}

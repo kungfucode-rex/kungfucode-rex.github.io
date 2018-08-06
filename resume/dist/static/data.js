@@ -263,8 +263,8 @@
             {
               "title": "小二租车后台管理系统",
               "status": "hide",
-              "scale": "6人年+",
-              "description": "技术:<br/><span class=\"indent-block\"></span>HTML,JavaScript,Css,Vue,iview,webpack,git,NodeJS<br/>简介: <br/><span class=\"indent-block\"></span>小二租车后台管理系统",
+              "scale": "3人年+",
+              "description": "技术:<br/><span class=\"indent-block\"></span>Vue 全家桶, Axios,iView,Webpack,MomentJS,ServiceWorker<br/>简介: <br/><span class=\"indent-block\"></span>该项目是一个后台管理系统，为小二租车提供基础接口服务的统一管理。最初后台管理没有统一规划，导致一共有6、7个后台，员工使用体验差，运维人员工作量大，而且项目维护和迭代很难进行。所以才重新设计并开发了这套全新的管理平台。项目框架的优势主要有： 1） 开发非常迅速； 2） 可维护性强； 3） 规范统一； 4） 使用ServiceWorker加速访问",
               "duty": "框架设计、开发与维护，部分业务功能开发"
             }
           ]
@@ -590,7 +590,7 @@
       ]
     },
     "experienceInfo": {
-      "title": "Experience",
+      "title": "工作经验",
       "items": [
         {
           "company": "小儿租车",
@@ -614,7 +614,7 @@
               "title": "小二租车后台管理系统",
               "status": "hide",
               "scale": "6人年+",
-              "description": "技术:<br/><span class=\"indent-block\"></span>HTML,JavaScript,Css,Vue,iview,webpack,git,NodeJS<br/>简介: <br/><span class=\"indent-block\"></span>小二租车后台管理系统",
+              "description": "技术:<br/><span class=\"indent-block\"></span>Vue 全家桶, Axios,iView,Webpack,MomentJS,ServiceWorker<br/>简介: <br/><span class=\"indent-block\"></span>该项目是一个后台管理系统，为小二租车提供基础接口服务的统一管理。最初后台管理没有统一规划，导致一共有6、7个后台，员工使用体验差，运维人员工作量大，而且项目维护和迭代很难进行。所以才重新设计并开发了这套全新的管理平台。项目框架的优势主要有： 1） 开发非常迅速； 2） 可维护性强； 3） 规范统一； 4） 使用ServiceWorker加速访问",
               "duty": "框架设计、开发与维护，部分业务功能开发"
             }
           ]
