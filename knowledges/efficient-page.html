@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>编写高效页面注意事项</title>
+  <style>
+    body {
+      padding: 40px;
+      background-color: rgb(229, 226, 226);
+    }
+    .knowledge-container {
+      display: flex;
+      width: 800px;
+      margin: auto;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 40px;
+      background-color: rgb(160, 204, 197);
+      box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.404);
+      justify-content: center;
+      align-content: center;
+      flex-direction: column;
+    }
+  </style>
+</head>
+<body>
+  <div class="knowledge-container">
+    <h1>编写高效页面注意事项</h1>
+    <ul style="line-height: 2;">
+      <li>减少重排重绘的次数</li>
+      <li>使用第三方库时尽量部分依赖</li>
+      <li>css尽量使用语义层级</li>
+      <li>小图片使用base64</li>
+      <li>根据网速加载不同图片</li>
+      <li>uglyfy源文件，gzip压缩</li>
+      <li>可以的情况下预加载资源</li>
+    </ul>
+  </div>
+</body>
+</html>
