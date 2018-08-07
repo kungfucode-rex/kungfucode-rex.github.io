@@ -15,7 +15,8 @@ window.onload = function () {
   let pptsItemsArr = [
     { title: 'JS对象', desc: 'JS的对象基础知识', link: 'ppts/Object.pptx' },
     { title: 'ServiceWorker', desc: 'SW基础知识', link: 'ppts/service-worker.svg' },
-    { title: 'WebAssembly', desc: 'WebAssembly基础知识', link: 'ppts/WebAssembly-base.pptx' },
+    { title: 'WebAssembly基础', desc: 'WebAssembly基础知识', link: 'ppts/WebAssembly-base.pptx' },
+    { title: 'WebAssembly进阶', desc: 'WebAssembly进阶', link: 'ppts/WebAssembly-high.pptx' },
     { title: '微信小程序', desc: '微信小程序基础', link: 'ppts/sm-program.pdf'}
   ]
   let knowledgesItemsArr = [

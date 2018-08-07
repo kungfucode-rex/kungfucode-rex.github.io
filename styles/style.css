@@ -29,7 +29,7 @@ body, .card::before {
     background-attachment: fixed;
 }
 .card{
-    width: 80%;
+    width: 90%;
     padding: 10px 10px;
     position: relative;
     overflow: hidden;
@@ -69,6 +69,7 @@ body, .card::before {
 
 .items{
     display: flex;
+    flex-wrap: wrap;
     padding: 10px;
 }
 .item {
