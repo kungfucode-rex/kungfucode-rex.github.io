@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "animate.css": "3.5.2",
-    "axios": "0.16.1",
+    "axios": "0.21.1",
     "better-scroll": "0.1.15",
     "hammerjs": "2.0.8",
     "n-zepto": "1.2.0",
